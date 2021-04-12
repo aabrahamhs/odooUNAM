@@ -3,7 +3,7 @@
 {
     'name':'Odoo Academy',
     'summary': """Academy App to Llegar a la Luna""",
-    'descripton':"""Modulo de odoo inc. para llegar a la luna
+    'description':"""Modulo de odoo inc. para llegar a la luna
         - Nave espacial
         - Tripulacion
     """,

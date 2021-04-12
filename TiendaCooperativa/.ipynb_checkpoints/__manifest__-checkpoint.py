@@ -3,7 +3,7 @@
 {
     'name':'Odoo Academy',
     'summary': """Academy App to Tienda Cooperativa""",
-    'descripton':"""Tienda Cooperativa
+    'description':"""Tienda Cooperativa
         - Voluntarios
         - Tienda
         - Productos

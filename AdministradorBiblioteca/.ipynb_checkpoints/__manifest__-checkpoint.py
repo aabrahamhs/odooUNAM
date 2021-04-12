@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-
 {
     'name':'Odoo Academy',
-    'summary': """Academy App to Administrador de una bibliotea""",
-    'descripton':"""Administrador de una bibliotea
+    'summary': """Academy App to Administrador de una biblioteca""",
+    'description':"""Administrador de una bibliotea
         - Libros
         - Clientes
         - Alquileres
