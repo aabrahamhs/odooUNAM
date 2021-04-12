@@ -8,7 +8,7 @@
         - Clientes
         - Alquileres
     """,
-    'author':'Odoo',
+    'author':'aabrahamhs',
     'website':'https://www.odoo.com',
     'category':'Training',
     'version':'0.1',
