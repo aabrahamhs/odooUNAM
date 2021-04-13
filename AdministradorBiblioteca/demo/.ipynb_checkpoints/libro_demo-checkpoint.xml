@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="academy.libro" id="Libro_1">
+            <field name="nombre">La tregua</field>
+            <field name="autor">Mario benedetti</field>
+            <field name="editor">Alfa</field>
+            <field name="editorial">Alfaguara</field>
+            <field name="anioEdicion">1990</field>
+            <field name="isbn">50-fdsfhsdfhds-121</field>
+            <field name="genero">novela</field>
+        </record>
+        <record model="academy.libro" id="Libro_2">
+            <field name="nombre">El laberinto de la soledad</field>
+            <field name="autor">Octavio Paz</field>
+            <field name="editor">Alfa</field>
+            <field name="editorial">Alfaguara</field>
+            <field name="anioEdicion">1990</field>
+            <field name="isbn">50-fdsfhsdfhds-121</field>
+            <field name="genero">novela</field>
+        </record>
+    </data>
+<odoo>
+
+
+
+
+
+
+
+

@@ -16,6 +16,6 @@
         
     ],
     'demo':[
-        
+        'demo/naveEspacial_demo.xml',
     ],
 }
