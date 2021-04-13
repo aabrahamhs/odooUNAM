@@ -6,3 +6,6 @@ class NaveEspacial(models.Model):
     
     _name = 'academy.nave_espacial'
     _description = 'Nave Espacial'
+    
+    
+    
