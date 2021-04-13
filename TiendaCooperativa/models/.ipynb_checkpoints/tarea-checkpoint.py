@@ -11,5 +11,5 @@ class Tarea(models.Model):
     tarea = fields.Char(string='Tarea')
     descripcion = fields.Char(string='Descripcion')
     tipoTarea = fields.Char(string='TipoTarea')
-    horaInicio = fields.Datetime.to_datetime(string ="HoraInicio", default=datetime.now())
-    horaFin = fields.Datetime.to_datetime(string ="HoraFin", default=datetime.now())
+    horaInicio = fields.Datetime.to_datetime(string ="HoraInicio", default=fields.Datetime.now())
+    horaFin = fields.Datetime.to_datetime(string ="HoraFin", default=fields.Datetime.now())
