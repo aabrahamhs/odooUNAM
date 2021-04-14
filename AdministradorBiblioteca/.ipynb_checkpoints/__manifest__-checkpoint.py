@@ -16,6 +16,6 @@
         
     ],
     'demo':[
-        'demo/libro_demo.xml'
+        'demo/libro_demo.xml',
     ],
 }
