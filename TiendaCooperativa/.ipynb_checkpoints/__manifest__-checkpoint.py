@@ -17,6 +17,6 @@
         
     ],
     'demo':[
-        
+        'demo/tarea_demo.xml',
     ],
 }

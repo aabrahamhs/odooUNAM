@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="academy.tarea" id="Libro_1">
+            <field name="tarea">Ventas</field>
+            <field name="descripcion">Ventas de mostrador</field>
+            <field name="tipoTarea">Caja</field>
+            <field name="horaInicio">13/04/2020 19:53</field>
+            <field name="horaFin">13/04/2020 18:00</field>
+        </record>
+        <record model="academy.tarea" id="Libro_2">
+            <field name="tarea">Ventas 2</field>
+            <field name="descripcion">Ventas de mostrador 2</field>
+            <field name="tipoTarea">Caja 2</field>
+            <field name="horaInicio" eval="time.strftime('%Y-%m-28  15:40:00')"/>
+            <field name="horaFin" eval="time.strftime('%Y-%m-28  15:40:00')"/>
+        </record>
+    </data>
+</odoo>
