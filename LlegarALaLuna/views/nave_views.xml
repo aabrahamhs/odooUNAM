@@ -11,14 +11,17 @@
                         <group>
                             <group>
                                 <field name="ancho"/>
+                                <field name="tipoBarco"/>
                             </group>
                             <group>
                                 <field name="largo"/>
+                                <field name="nopasajeros"/>
                             </group>
                         </group>
                         <notebook>
                             <page string="Combustible">
                                 <field name="tipoCombustible"/>
+                                <field name="active"/>
                             </page>
                         </notebook>
                     </sheet>
