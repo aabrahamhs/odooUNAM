@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="libros_view_form">
+            <field name="name">academy.libro.form</field>
+            <field name="model">academy.libro</field>
+            <field name="arch" type="xml">
+                <form string="Libro Form">
+                    <sheet>
+                        <h1><field name="nombre"/></h1>
+                        <group>
+                            <group>
+                                <field name="autor"/>
+                                <field name="editor"/>
+                                <field name="editorial"/>
+                                <field name="anioEdicion"/>
+                                <field name="isbn"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Genero">
+                                <field name="genero"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="libros_view_list">
+            <field name="name">academy.libro.list</field>
+            <field name="model">academy.libro</field>
+            <field name="arch" type="xml">
+                <tree string="Libros List">
+                    <field name="nombre"/>
+                    <field name="autor"/>
+                    <field name="editor"/>
+                    <field name="editorial"/>
+                    <field name="anioEdicion"/>
+                    <field name="isbn"/>
+                </tree>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="libros_view_search">
+            <field name="name">academy.libro.search</field>
+            <field name="model">academy.libro</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="nombre"/>
+                    <field name="autor"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>
