@@ -14,7 +14,8 @@
     'version':'0.1',
     'depends':['base'],
     'data':[
-        
+        'security/tarea_security.xml',
+        'security/ir.model.access.csv'
     ],
     'demo':[
         'demo/tarea_demo.xml',

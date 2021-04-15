@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+voluntario_principal,voluntario principal,model_academy_tarea,group_academy_tarea_admin,1,1,1,1
+voluntario,voluntario,model_academy_tarea,,1,0,0,0
