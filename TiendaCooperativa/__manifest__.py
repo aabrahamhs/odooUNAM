@@ -15,7 +15,8 @@
     'depends':['base'],
     'data':[
         'security/tarea_security.xml',
-        'security/ir.model.access.csv'
+        'security/ir.model.access.csv',
+        'views/tarea_menuitems.xml',
     ],
     'demo':[
         'demo/tarea_demo.xml',
