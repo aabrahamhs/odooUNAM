@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="nave_view_form">
+            <field name="name">academy.nave.form</field>
+            <field name="model">academy.nave_espacial</field>
+            <field name="arch" type="xml">
+                <form string="Course Form">
+                    <sheet>
+                        <h1><field name="alto"/></h1>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="nave_view_list">
+            <field name="name">academy.nave.list</field>
+            <field name="model">academy.nave_espacial</field>
+            <field name="arch" type="xml">
+                <tree string="Course List">
+                    <field name="alto"/>
+                    <field name="ancho"/>
+                    <field name="largo"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>
