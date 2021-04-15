@@ -15,6 +15,7 @@
     'data':[
         'security/academy_nave_security.xml',
         'security/ir.model.access.csv',
+        'views/espacio_menuitems.xml',
     ],
     'demo':[
         'demo/naveEspacial_demo.xml',

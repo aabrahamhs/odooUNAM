@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="espacio_list_action">
+            <field name="name">espacio</field>
+            <field name="res_model">academy.nave_espacial</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create the first nave
+                </p>
+            </field>
+        </record>
+        <menuitem id="menu_espacio" name="Espacio" sequence="1"/>
+        <menuitem id="menu_nave_sub" name="Nave Espacial" sequence="2" parent="menu_espacio"/>
+        <menuitem id="menu_nave_espacial" name="Nave espacial" sequence="3" parent="menu_nave_sub" action="espacio_list_action"/>
+    </data>
+</odoo>
