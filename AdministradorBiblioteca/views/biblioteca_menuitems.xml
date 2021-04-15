@@ -11,7 +11,7 @@
                 </p>
             </field>
         </record>
-        <menuitem id="menu_libro" name="Espacio" sequence="1"/>
+        <menuitem id="menu_libro" name="Biblioteca" sequence="1"/>
         <menuitem id="menu_libro_sub" name="Libros" sequence="2" parent="menu_libro"/>
         <menuitem id="menu_libro_action" name="Libro" sequence="3" parent="menu_libro_sub" action="libro_list_action"/>
     </data>
