@@ -13,7 +13,8 @@
     'version':'0.1',
     'depends':['base'],
     'data':[
-        
+        'security/biblioteca_security.xml',
+        'security/ir.model.access.csv'
     ],
     'demo':[
         'demo/libro_demo.xml',
