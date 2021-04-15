@@ -17,6 +17,7 @@
         'security/tarea_security.xml',
         'security/ir.model.access.csv',
         'views/tarea_menuitems.xml',
+        'views/tarea_views.xml'
     ],
     'demo':[
         'demo/tarea_demo.xml',
