@@ -13,7 +13,8 @@
     'version':'0.1',
     'depends':['base'],
     'data':[
-        
+        'security/academy_nave_security.xml',
+        'security/ir.model.access.csv',
     ],
     'demo':[
         'demo/naveEspacial_demo.xml',
