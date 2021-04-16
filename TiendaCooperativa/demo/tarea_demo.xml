@@ -5,7 +5,8 @@
             <field name="tarea">Ventas</field>
             <field name="descripcion">Ventas de mostrador</field>
             <field name="tipoTarea">Caja</field>
-            <field name="level">borrador</field>
+            <field name="lider"></field>
+            <field name="estado">borrador</field>
             <!--field name="horaInicio" eval="time.strftime('%Y-%m-28 15:40:00')"/>
             <field name="horaFin" eval="time.strftime('%Y-%m-28 15:40:00')"/-->
         </record>
@@ -13,7 +14,8 @@
             <field name="tarea">Ventas 2</field>
             <field name="descripcion">Ventas de mostrador 2</field>
             <field name="tipoTarea">Caja 2</field>
-            <field name="level">borrador</field>
+            <field name="lider"></field>
+            <field name="estado">borrador</field>
             <!--field name="horaInicio" eval="time.strftime('%Y-%m-28 15:40:00')"/>
             <field name="horaFin" eval="time.strftime('%Y-%m-28 15:40:00')"/-->
         </record>

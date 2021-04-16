@@ -4,7 +4,7 @@ from odoo import models, fields, api
 from datetime import datetime
 class Tarea(models.Model):
     
-    _name = 'academy.tarea'
+    _name = 'academy.tarea' 
     _description = 'Tarea'
     
     tarea = fields.Char(string='Tarea')

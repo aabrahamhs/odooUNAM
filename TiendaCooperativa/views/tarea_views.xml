@@ -11,6 +11,8 @@
                         <group>
                             <group>
                                 <field name="tipoTarea"/>
+                                <field name="lider"/>
+                                <field name="estado"/>
                                 <!--field name="horaInicio"/>
                                 <field name="horaFin"/-->
                             </group>
