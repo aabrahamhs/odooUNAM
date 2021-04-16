@@ -31,6 +31,5 @@ class Course(models.Model):
     @api.constrains('tarifa_adicional')
     def _checa_tarifa_adicional(self):
         for record in self:
-            if record in self:
-                if record.tarifa_adicional < 10.00:
-                    raise ValidationError('Tarifa adicional no puede ser menor que %s' % record.tarifa_adicional )
+            if record.tarifa_adicional < 10.00:
+                raise ValidationError('Tarifa adicional no puede ser menor que %s' % record.tarifa_adicional )
