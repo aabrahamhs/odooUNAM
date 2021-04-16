@@ -32,4 +32,4 @@ class Course(models.Model):
     def _checa_tarifa_adicional(self):
         for record in self:
             if record.tarifa_adicional < 10.00:
-                raise ValidationError('Tarifa adicional no puede ser menor que %s' % record.tarifa_adicional )
+                raise ValidationError('Tarifa adicional no puede ser menor que 10:00: %s' % record.tarifa_adicional )
