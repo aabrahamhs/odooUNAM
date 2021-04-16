@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
+from odoo.exceptions import UserError,ValidationError
 
 class NaveEspacial(models.Model):
     
@@ -16,6 +17,12 @@ class NaveEspacial(models.Model):
     nopasajeros = fields.Integer(string='Nopasajeros')
     
     active = fields.Boolean(string='Active', default=True)
+    
+    @api.constrains('ancho','largo')
+    def _valida_tamanio(self):
+        for record in self:
+            if record.largo <= record.ancho:
+                raise UserError("El ancho no puede ser menor que el largo")
     
     
     
