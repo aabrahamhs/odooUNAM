@@ -24,4 +24,4 @@ class Tarea(models.Model):
     def _pasar_estado_a_listo(self):
         print ("Lider_len=",self.lider)
         if len(self.lider) > 0 :
-            estado = 'listo'
+            self.estado = 'listo'

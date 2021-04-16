@@ -12,7 +12,7 @@
                             <group>
                                 <field name="tipoTarea"/>
                                 <field name="lider"/>
-                                <field name="estado" force_update="1"/>
+                                <field name="estado"/>
                                 <!--field name="horaInicio"/>
                                 <field name="horaFin"/-->
                             </group>
