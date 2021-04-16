@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
+from odoo.exceptions import UserError,ValidationError
 
 class Libro(models.Model):
     
@@ -14,3 +15,8 @@ class Libro(models.Model):
     anioEdicion = fields.Integer(string='anioEdicion')
     isbn = fields.Char(string='Isbn')
     genero = fields.Char(string='Genero')
+    
+    @api.onchange('isbn')
+    def _valida_isbn(self):
+        if len(self.isbn) != 13:
+            raise ValidationError('El isbn debe ser de 13 caracteres')

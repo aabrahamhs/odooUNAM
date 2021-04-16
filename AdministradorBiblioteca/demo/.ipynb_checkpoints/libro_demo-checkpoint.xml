@@ -7,7 +7,7 @@
             <field name="editor">Alfa</field>
             <field name="editorial">Alfaguara</field>
             <field name="anioEdicion">1990</field>
-            <field name="isbn">50-fdsfhsdfhds-121</field>
+            <field name="isbn">978-6073133531</field>
             <field name="genero">novela</field>
         </record>
         <record model="academy.libro" id="Libro_2">
@@ -16,7 +16,7 @@
             <field name="editor">Alfa</field>
             <field name="editorial">Alfaguara</field>
             <field name="anioEdicion">1990</field>
-            <field name="isbn">50-fdsfhsdfhds-121</field>
+            <field name="isbn">978-6071662798</field>
             <field name="genero">novela</field>
         </record>
     </data>
