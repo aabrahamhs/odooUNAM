@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="mision_view_form">
+            <field name="name">academy.mision.form</field>
+            <field name="model">academy.mision</field>
+            <field name="arch" type="xml">
+                <form string="Nave Form">
+                    <sheet>
+                        <h1><field name="descripcion"/></h1>
+                        
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
+                        

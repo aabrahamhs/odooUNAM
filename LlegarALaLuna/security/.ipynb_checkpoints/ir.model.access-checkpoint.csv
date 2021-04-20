@@ -2,3 +2,5 @@ id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
 nave_admin,nave admin,model_academy_nave_espacial,group_academy_nave_admin,1,1,1,1
 nave_acceso_general,nave_acceso_general,model_academy_nave_espacial,,1,0,0,0
 nave_tripulacion,nave tripulacion,model_academy_nave_espacial,group_academy_nave_admin,1,1,1,0
+mision_admin,mision admin,model_academy_mision,group_academy_nave_admin,1,1,1,1
+mision_read_all,mision read all,model_academy_mision,,1,0,0,0

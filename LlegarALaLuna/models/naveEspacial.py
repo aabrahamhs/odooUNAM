@@ -8,6 +8,8 @@ class NaveEspacial(models.Model):
     _name = 'academy.nave_espacial'
     _description = 'Nave Espacial'
     
+    mision_id = fields.Many2one(comodel_name='academy.mision',string='Mision',ondelete='cascade')
+    
     alto = fields.Integer(string='Alto')
     ancho = fields.Integer(string='Ancho')
     largo = fields.Integer(string='Largo')
