@@ -8,9 +8,26 @@
                 <form string="Nave Form">
                     <sheet>
                         <h1><field name="descripcion"/></h1>
-                        
+                        <notebook>
+                            <page string="Nave espacial">
+                                <field name="nave_espacial"/>
+                            </page>
+                            <page string="Tripulacion">
+                                <field name="contactos_ids"/>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="nave_view_list">
+            <field name="name">academy.mision.form</field>
+            <field name="model">academy.mision</field>
+            <field name="arch" type="xml">
+                <tree string="Mision List">
+                    <field name="nave_espacial"/>
+                    <field name="descripcion"/>
+                </tree>
             </field>
         </record>
     </data>
