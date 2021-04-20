@@ -20,7 +20,7 @@
                 </form>
             </field>
         </record>
-        <record model="ir.ui.view" id="nave_view_list">
+        <record model="ir.ui.view" id="mision_view_list">
             <field name="name">academy.mision.form</field>
             <field name="model">academy.mision</field>
             <field name="arch" type="xml">
