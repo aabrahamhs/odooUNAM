@@ -20,5 +20,12 @@ class Libro(models.Model):
     
     @api.onchange('isbn')
     def _valida_isbn(self):
-        if len(self.isbn) != 13:
-            raise ValidationError('El isbn debe ser de 13 caracteres')
+        for record in self:
+            print("Campo a verificar")
+            print(self)
+            if self == False:
+                continue
+            else: 
+                if len(self.isbn) != 13:
+                    raise ValidationError('El isbn debe ser de 13 caracteres')
+        
