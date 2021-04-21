@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="alquiler_view_form">
+            <field name="name">academy.alquiler.form</field>
+            <field name="model">academy.alquiler</field>
+            <field name="arch" type="xml">
+                <form string="Alquiler Form">
+                    <sheet>
+                        <h1><field name="nombre_alquiler"/></h1>
+                        <notebook>
+                            <page string="Libros">
+                                <field name="libro_ids"/>
+                            </page>
+                            <page string="Cliente">
+                                <field name="cliente_id"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="alquiler_view_list">
+            <field name="name">academy.alquiler.list</field>
+            <field name="model">academy.alquiler</field>
+            <field name="arch" type="xml">
+                <tree string="Libros List">
+                    <field name="nombre_alquiler"/>
+                </tree>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="alquiler_view_search">
+            <field name="name">academy.alquiler.search</field>
+            <field name="model">academy.alquiler</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="nombre_alquiler"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>

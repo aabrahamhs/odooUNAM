@@ -16,6 +16,8 @@ class Libro(models.Model):
     isbn = fields.Char(string='Isbn')
     genero = fields.Char(string='Genero')
     
+    libro_id = fields.Many2one(comodel_name='academy.alquiler',string='Alquiler',ondelete='cascade')
+    
     @api.onchange('isbn')
     def _valida_isbn(self):
         if len(self.isbn) != 13:
