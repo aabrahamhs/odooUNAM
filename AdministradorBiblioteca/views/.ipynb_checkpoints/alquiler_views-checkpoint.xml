@@ -13,7 +13,7 @@
                                 <field name="libro_ids"/>
                             </page>
                             <page string="Cliente">
-                                <field name="cliente_id"/>
+                                <field name="cliente_id" model="academy.libro" priority="2"/>
                             </page>
                         </notebook>
                     </sheet>
