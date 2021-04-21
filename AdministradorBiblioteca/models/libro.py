@@ -26,7 +26,7 @@ class Libro(models.Model):
         for record in self:
             _logger.debug('Campo a verificar')
             _logger.debug(self)
-            if self == True:
+            if self.isbn == False:
                 continue
             else: 
                 if len(self.isbn) != 13:
