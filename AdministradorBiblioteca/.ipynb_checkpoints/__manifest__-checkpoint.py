@@ -18,6 +18,7 @@
         'views/biblioteca_menuitems.xml',
         'views/libro_views.xml',
         'views/alquiler_views.xml',
+        'demo/libro_demo.xml',
     ],
     'demo':[
         'demo/libro_demo.xml',
