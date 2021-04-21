@@ -3,9 +3,6 @@
 from odoo import models, fields, api
 from odoo.exceptions import UserError,ValidationError
 
-import logging
-_logger = logging.getLogger(__name__)
-
 class Libro(models.Model):
     
     _name = 'academy.libro'
@@ -24,9 +21,7 @@ class Libro(models.Model):
     @api.onchange('isbn')
     def _valida_isbn(self):
         for record in self:
-            _logger.debug('Campo a verificar')
-            _logger.debug(self)
-            if self.isbn == False:
+            if record.isbn == False:
                 continue
             else: 
                 if len(self.isbn) != 13:
