@@ -20,7 +20,7 @@ class Tarea(models.Model):
     horaInicio = datetime.strftime(fields.Datetime.now(), "%Y-%m-%d %H:%M:%S")
     horaFin = datetime.strftime(fields.Datetime.now(), "%Y-%m-%d %H:%M:%S")
     
-    voluntarios_id=fields.Many2one(comodel_name='res.partner',string='Voluntarios')
+    voluntarios_id=fields.One2many(comodel_name='res.partner',inverse_name='id',string='Voluntarios')
     
     @api.onchange('lider')
     def _pasar_estado_a_listo(self):
