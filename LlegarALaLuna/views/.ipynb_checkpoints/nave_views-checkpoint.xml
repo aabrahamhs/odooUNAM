@@ -62,10 +62,5 @@
                 </graph>
             </field>
         </record>
-        <record model="ir.actions.act_window" id="nave_graph_action">
-            <field name="name">Grafico</field>
-            <field name="res_model">academy.nave_espacial</field>
-            <field name="view_mode">graph</field>
-        </record>
     </data>
 </odoo>
