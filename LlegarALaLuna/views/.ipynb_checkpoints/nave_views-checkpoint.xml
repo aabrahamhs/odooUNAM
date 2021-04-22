@@ -55,10 +55,10 @@
             <field name="model">academy.nave_espacial</field>
             <field name="arch" type="xml">
                 <graph string="Nave graph">
-                    <field name="nopasajeros"/>
-                    <field name="cantidad_combustible"/>
-                    <field name="no_motores"/>
-                    <field name="no_caracteristicas_seguridad"/>
+                    <field name="nopasajeros" type="measure"/>
+                    <field name="cantidad_combustible" type="measure"/>
+                    <field name="no_motores" type="measure"/>
+                    <field name="no_caracteristicas_seguridad" type="measure"/>
                 </graph>
             </field>
         </record>
