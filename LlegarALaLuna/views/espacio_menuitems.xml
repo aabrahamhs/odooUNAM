@@ -30,6 +30,6 @@
         <menuitem id="menu_nave_sub" name="Nave Espacial" sequence="2" parent="menu_espacio"/>
         <menuitem id="menu_nave_espacial" name="Nave espacial" sequence="3" parent="menu_nave_sub" action="espacio_list_action"/>
         <menuitem id="menu_mision_espacial" name="Mision" sequence="4" parent="menu_nave_sub" action="mision_list_action"/>
-        <menuitem id="menu_nave_grafico" name="Grafico" parent="menu_nave_sub" groups="group_academy_nave_admin" action="nave_graph_action"/>
+        <menuitem id="menu_nave_grafico" name="Grafico" sequence="5" parent="menu_nave_sub"  action="nave_graph_action"/>
     </data>
 </odoo>
