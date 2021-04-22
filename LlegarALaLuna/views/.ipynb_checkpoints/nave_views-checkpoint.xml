@@ -54,7 +54,7 @@
             <field name="name">academy.nave.graph</field>
             <field name="model">academy.nave_espacial</field>
             <field name="arch" type="xml">
-                <graph string="Nave graph">
+                <graph string="Metricas nave" stacked="True" >
                     <field name="nopasajeros" type="measure"/>
                     <field name="cantidad_combustible" type="measure"/>
                     <field name="no_motores" type="measure"/>
