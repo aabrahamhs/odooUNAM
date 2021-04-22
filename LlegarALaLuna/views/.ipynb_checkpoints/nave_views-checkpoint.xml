@@ -7,15 +7,21 @@
             <field name="arch" type="xml">
                 <form string="Nave Form">
                     <sheet>
-                        <h1><field name="alto"/></h1>
+                        <h1><field name="nombre"/></h1>
                         <group>
                             <group>
+                                <field name="alto"/>
                                 <field name="ancho"/>
                                 <field name="tipoBarco"/>
                             </group>
                             <group>
                                 <field name="largo"/>
                                 <field name="nopasajeros"/>
+                            </group>
+                            <group>
+                                <field name="cantidad_combustible"/>
+                                <field name="no_motores"/>
+                                <field name="no_caracteristicas_seguridad"/>
                             </group>
                         </group>
                         <notebook>
@@ -32,7 +38,7 @@
             <field name="name">academy.nave.list</field>
             <field name="model">academy.nave_espacial</field>
             <field name="arch" type="xml">
-                <tree string="Course List">
+                <tree string="Nave List">
                     <field name="alto"/>
                     <field name="ancho"/>
                     <field name="largo"/>
@@ -41,6 +47,18 @@
                     <field name="nopasajeros"/>
                     <field name="active"/>
                 </tree>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="nave_view_graph">
+            <field name="name">academy.nave.graph</field>
+            <field name="model">academy.nave_espacial</field>
+            <field name="arch" type="xml">
+                <graph string="Nave graph">
+                    <field name="nopasajeros"/>
+                    <field name="cantidad_combustible"/>
+                    <field name="no_motores"/>
+                    <field name="no_caracteristicas_seguridad"/>
+                </graph>
             </field>
         </record>
     </data>
