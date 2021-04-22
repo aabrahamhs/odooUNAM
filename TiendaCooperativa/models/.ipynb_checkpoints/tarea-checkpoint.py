@@ -20,6 +20,8 @@ class Tarea(models.Model):
     horaInicio = datetime.strftime(fields.Datetime.now(), "%Y-%m-%d %H:%M:%S")
     horaFin = datetime.strftime(fields.Datetime.now(), "%Y-%m-%d %H:%M:%S")
     
+    
+    active = fields.Boolean(string='Active', default=True)
     voluntarios_id=fields.One2many(comodel_name='res.partner',inverse_name='id',string='Voluntarios')
     
     @api.onchange('lider')
