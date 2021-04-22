@@ -15,11 +15,12 @@
                                 <field name="estado"/>
                                 <!--field name="horaInicio"/>
                                 <field name="horaFin"/-->
+                                <field name="descripcion"/>
                             </group>
                         </group>
                         <notebook>
-                            <page string="Descripcion">
-                                <field name="descripcion"/>
+                            <page string="Voluntarios">
+                                <field name="voluntarios_id"/>
                             </page>
                         </notebook>
                     </sheet>
